@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    height: 24px;
+    font-size: 12px;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+    font-size: 12px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+span { 
+    margin: 5px 0;
+    display: block;
+}

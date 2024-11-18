@@ -1,0 +1,9 @@
+span > label {
+    display: inline-block;
+    width: 90px;
+}
+
+span > input[type="text"] {
+    font-size:12px;
+    padding:5px;
+}
